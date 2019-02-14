@@ -10,4 +10,4 @@ before_script:
   - ./configure
 
 script:
-  - ./compile
+  - ./make
