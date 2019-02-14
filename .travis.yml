@@ -5,8 +5,8 @@ git:
 
 before_script:
   - sudo apt-add-repository 'deb http://repos.codelite.org/wx3.1.2/ubuntu/ cosmic universe'
-  - apt-get update
-  - apt-get install libwxbase3.1-0-unofficial \
+  - sudo apt-get update
+  - sudo apt-get install libwxbase3.1-0-unofficial \
                  libwxbase3.1-dev \
                  libwxgtk3.1-0-unofficial \
                  libwxgtk3.1-dev \
