@@ -1,0 +1,10 @@
+language: bash
+
+git:
+  depth: 5
+
+before_script:
+  - ./configure
+
+script:
+  - ./compile
