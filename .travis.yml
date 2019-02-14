@@ -4,15 +4,9 @@ git:
   depth: 5
 
 before_script:
-  - sudo apt-key adv --fetch-keys http://repos.codelite.org/CodeLite.asc
-  - sudo apt-add-repository 'deb http://repos.codelite.org/wx3.1.0/ubuntu/ trusty universe'
+  - curl http://apt.wxwidgets.org/key.asc | sudo apt-key add -
   - sudo apt-get update
-  - sudo apt-get install libwxbase3.1-0-unofficial3 \
-                 libwxbase3.1unofficial3-dev \
-                 libwxgtk3.1-0-unofficial3 \
-                 libwxgtk3.1unofficial3-dev \
-                 wx3.1-headers \
-                 wx-common \
+  - sudo apt-get install libwxgtk2.8-dev libwxgtk2.8-dbg
   - ./configure
 
 script:
