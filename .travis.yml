@@ -5,7 +5,7 @@ git:
 
 before_script:
   - sudo apt-key adv --fetch-keys http://repos.codelite.org/CodeLite.asc
-  - sudo apt-add-repository 'deb http://repos.codelite.org/wx3.1.0/ubuntu/'
+  - sudo apt-add-repository 'deb http://repos.codelite.org/wx3.1.0/ubuntu/ trusty universe'
   - sudo apt-get update
   - apt-get install libwxbase3.1-0-unofficial3 \
                  libwxbase3.1unofficial3-dev \
