@@ -5,7 +5,6 @@ git:
   depth: 5
 
 before_script:
-  - 
   - brew install wxmac
   - brew install gtk2.0
   - brew install automake
