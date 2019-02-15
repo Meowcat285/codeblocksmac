@@ -6,7 +6,7 @@ git:
 
 before_script:
   - 
-  - brew install libwxgtk2.8-dev libwxgtk2.8-dbg
+  - brew install wxmac
   - brew install gtk2.0
   - brew install automake
   - brew install autoconf
