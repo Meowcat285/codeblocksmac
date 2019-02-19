@@ -71,6 +71,8 @@
 #include "editorconfigurationdlg.h"
 #include "projectmanagerui.h"
 
+cout << ("Oh god here we go...");
+
 class cbFileDropTarget : public wxFileDropTarget
 {
 public:
