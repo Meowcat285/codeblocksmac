@@ -7,7 +7,6 @@ git:
 before_script:
   - brew install wxmac
   - brew install gtk+3
-  - brew install automake
   - brew install autoconf
   - brew install m4
   - brew install perl
