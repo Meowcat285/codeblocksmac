@@ -16,4 +16,4 @@ before_script:
 script:
   - automake
   - make --ignore-errors
-  - sudo make install
+  - sudo make install --ignore-errors
